@@ -35,7 +35,7 @@ However, if you need to scale your application, you'll need to pay for additiona
 
 - ### Clone the repo
 
-      https://github.com/Geeksofkolachi/supabase-sample
+      https://github.com/Geeksofkolachi/supabase-sample.git
 
 - ### Install Supabase Globally
   - #### On Windows
