@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Supabase Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀📢 Set Of Features
 
-## Available Scripts
+- Authentication
+- CRUD Operation
+- Real Time Chat Application
 
-In the project directory, you can run:
+## 🔦📓 Supabase Vs Firebase
 
-### `yarn start`
+### Database
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Firestore allows you to store “documents”. These are collections of key:value pairs where the value can be another sub-document. Document based storage is perfect for unstructured data, since two documents in a collection do not necessarily need to have the same structure.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Supabase is an open source firebase alternative, but instead of being built around a document-based datastore, Supabase offers a relational database management system called PostgreSQL.
 
-### `yarn test`
+### Real-time updates
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Firebase offers real-time updates using WebSockets.
+- Supabase offers real-time updates using PostgreSQL's built-in real-time notifications.
 
-### `yarn build`
+### Integrations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Firebase offers integrations with several Google services, including Google Analytics and Google Cloud Functions.
+- Supabase has fewer integrations but provides extensive support for PostgreSQL features and libraries.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pricing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Firebase has a free tier that allows a limited number of users.
+- Supabase is completely open-source and free to use
 
-### `yarn eject`
+However, if you need to scale your application, you'll need to pay for additional resources on both platforms.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🖱️💻 How To Start Project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ### Clone the repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      <!-- https://github.com/Markovian-Studios/HeeraDigitalFrontend.git -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ### Install Supabase Globally
+  - #### On Windows
+        scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
+  - ### On Macos
+        brew install supabase/tap/supabase
+- ### Install and Setup Supabase
 
-## Learn More
+  [Click Here](https://docs.google.com/document/d/1nBdrPIfQffQOUodYBrwV9ISEEYzUrzFzodqdThLilnI/edit)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ### Install Dependencies
+      yarn
+- ### Project Run
+      yarn start
+- ### Access At
+      localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ☕️ 🔦 Technologies Used
+
+- React: Its is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.
+
+- Supabase: Supabase is an open source Firebase alternative providing all the backend features you need to build a product
+
+## 💡🎤 Version History
+
+- Supabase version : 2.8.0
+- React version : 18.2
